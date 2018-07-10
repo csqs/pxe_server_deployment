@@ -1,5 +1,0 @@
-default linux
-
-label linux
-    kernel bzImage
-    append initrd=initrd.cpio.gz devfs=nomount ramdisk_size=9960000 idle=poll
